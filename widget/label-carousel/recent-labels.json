@@ -9,11 +9,15 @@
     "label": "Font Color",
     "value": "rgba(255,255,255,1)"
   },
-  
     "fontSize": {
       "type": "number",
       "label": "Font Size (in px)",
       "value": 12
+    },
+    "lineHeight": {
+      "type": "number",
+      "label": "Line Height",
+      "value": 0.25
     },
     "fontWeight": {
       "label": "Font Weight",
@@ -27,6 +31,40 @@
         "700": "Bold (700)",
         "900": "Black (900)"
       }
+    },
+    "shadowColor": {
+      "type": "colorpicker",
+      "label": "Shadow Color",
+      "value": "rgba(255,255,255,1)"
+    },
+    "shadowX": {
+    "type": "slider",
+    "label": "Shadow X Axis (px)",
+    "value": 0,
+    "min": 0,
+    "max": 20,
+    "steps": 1
+  },
+  "shadowY": {
+    "type": "slider",
+    "label": "Shadow Y Axis (px)",
+    "value": 0,
+    "min": 0,
+    "max": 20,
+    "steps": 1
+  },
+  "shadowBlur": {
+    "type": "slider",
+    "label": "Shadow Blur (px)",
+    "value": 3,
+    "min": 0,
+    "max": 15,
+    "steps": 1
+  },
+    "timeIn": {
+      "type": "number",
+      "label": "Animation In time ms",
+      "value": 400
     },
     "timeIn": {
       "type": "number",

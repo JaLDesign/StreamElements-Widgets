@@ -2,19 +2,13 @@
     _display: none;
     position: absolute;
     display:none;
-    
     font-weight: {{fontWeight}};
-    line-height: 0.5;
+  	line-height: {{lineHeight}};
     font-family: '{{fontName}}';
     font-size:{{fontSize}}px;
     color:{{fontColor}};
 }
-.icon {
-    text-decoration: none;
-    float: left;
-}
 .username{
-    float:left;
     padding-left: 5px;
-  	text-shadow: 3px 1px 3px #333333;
+  text-shadow: {shadowX}px {shadowY}px {shadowBlur}px {{shadowColor}};
 }
