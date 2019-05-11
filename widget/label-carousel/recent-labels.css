@@ -2,9 +2,11 @@
     _display: none;
     position: absolute;
     display:none;
-    font-family: 'Varela Round', sans-serif;
+    
+    font-weight: {{fontWeight}};
     line-height: 0.5;
-    font-size: {{fontSize}}px;
+    font-family: '{{fontName}}';
+    font-size:{{fontSize}}px;
     color:{{fontColor}};
 }
 .icon {
